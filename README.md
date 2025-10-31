@@ -161,35 +161,6 @@ submerged-territories/
 - **Botón Reset**: Restablecer cámara
 - **Botón Info**: Ver información científica
 
-## 🔧 Desarrollo
-
-### Scripts disponibles
-
-#### Frontend
-```bash
-npm run dev      # Servidor de desarrollo
-npm run build    # Build de producción
-npm run preview  # Preview del build
-```
-
-#### Backend
-```bash
-npm start        # Iniciar servidor
-npm run dev      # Iniciar con nodemon (auto-reload)
-```
-
-## 🐛 Solución de Problemas
-
-### El puerto 3000 o 5173 está en uso
-```bash
-# Windows
-netstat -ano | findstr :3000
-taskkill /F /PID <PID>
-
-# Linux/Mac
-lsof -ti:3000 | xargs kill -9
-```
-
 ### Las APIs no funcionan
 - Verifica que el backend esté corriendo
 - Confirma que las API keys estén en `backend/.env`
@@ -199,25 +170,7 @@ lsof -ti:3000 | xargs kill -9
 - Asegúrate de que los archivos `.glb` o `.gltf` estén en `frontend/public/assets/models/`
 - Verifica las rutas en `backend/data/exhibits.json`
 
-## 📝 Licencia
-
-MIT License - Ver archivo LICENSE para más detalles
-
 ## 👥 Autor
 
 Mario Feng - [MarioFengW](https://github.com/MarioFengW)
-
-## 🙏 Agradecimientos
-
-- APIs Ninjas por la API de animales
-- Trefle.io por la API de plantas
-- Comunidad de Three.js
-- Ecosistemas de Vue.js y Node.js
-
 ---
-
-**🦎 ¡Ayúdanos a conservar el axolote mexicano y los manglares!** 🌿
-
-Para más información sobre conservación:
-- [Conservación del Axolote](https://www.ambystoma.org/)
-- [Protección de Manglares](https://www.ramsar.org/)
