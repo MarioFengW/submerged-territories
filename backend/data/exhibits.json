@@ -1,0 +1,127 @@
+[
+  {
+    "id": "exhibit-axolotl-3d",
+    "roomId": "axolotl-room",
+    "title": "Axolotl Interactivo 3D",
+    "type": "3d-model-interactive",
+    "description": "Modelo 3D interactivo de alta calidad de un axolotl mexicano. Rota, acerca y explora sus características únicas.",
+    "position": { "x": 0, "y": 0, "z": 0 },
+    "modelUrl": "/assets/models/axolotl.glb",
+    "interactionType": "rotate-zoom-animate-info",
+    "technicalSpecs": {
+      "format": "glTF 2.0",
+      "triangles": 25000,
+      "textureResolution": 2048,
+      "animations": ["idle", "swim", "close-up"],
+      "scale": 0.25,
+      "orientation": "+Z forward, +Y up",
+      "lods": ["high", "medium", "low"]
+    },
+    "scientificInfo": {
+      "commonName": "Axolotl",
+      "scientificName": "Ambystoma mexicanum",
+      "habitat": "Lagos y canales de Xochimilco, México",
+      "curiosities": [
+        "Puede regenerar extremidades, órganos e incluso partes del cerebro",
+        "Mantiene características larvales toda su vida (neotenia)",
+        "En peligro crítico de extinción con menos de 1,000 ejemplares en vida silvestre"
+      ],
+      "description": "El axolotl es un anfibio endémico de México conocido por su extraordinaria capacidad de regeneración. A diferencia de otros anfibios, mantiene sus branquias externas y características larvales durante toda su vida."
+    },
+    "infoNote": "Modelo 3D de alta fidelidad optimizado para web. Haz clic en los puntos interactivos para aprender más."
+  },
+  {
+    "id": "exhibit-4",
+    "roomId": "axolotl-room",
+    "title": "Hábitat de Xochimilco",
+    "type": "panorama-360",
+    "description": "Recorrido 360° por los canales de Xochimilco, hogar natural de los axolotes.",
+    "panoramaUrl": "/assets/panoramas/xochimilco.jpg",
+    "hotspots": [
+      { "position": { "x": 10, "y": 5, "z": 20 }, "label": "Chinampa", "info": "Antigua técnica agrícola azteca" },
+      { "position": { "x": -15, "y": 3, "z": 10 }, "label": "Canal", "info": "Hogar de los axolotes" }
+    ],
+    "infoNote": "Los canales de Xochimilco son el hábitat ancestral de los axolotes y necesitan conservación urgente."
+  },
+  {
+    "id": "exhibit-mangrove-3d",
+    "roomId": "mangrove-forest",
+    "title": "Mangle Rojo Interactivo 3D",
+    "type": "3d-model-interactive",
+    "description": "Modelo 3D de alta calidad de un mangle rojo con su complejo sistema de raíces. Explora sus adaptaciones únicas al ambiente marino.",
+    "position": { "x": 0, "y": 0, "z": 0 },
+    "modelUrl": "/assets/models/red-mangrove.glb",
+    "interactionType": "rotate-zoom-animate-info",
+    "technicalSpecs": {
+      "format": "glTF 2.0",
+      "triangles": 45000,
+      "textureResolution": 2048,
+      "animations": ["wind", "fauna"],
+      "scale": 1.0,
+      "orientation": "+Z forward, +Y up",
+      "lods": ["high", "medium", "low"],
+      "separatedGeometry": {
+        "roots": true,
+        "trunk": true,
+        "leaves": true
+      }
+    },
+    "scientificInfo": {
+      "commonName": "Mangle Rojo",
+      "scientificName": "Rhizophora mangle",
+      "habitat": "Zonas intermareales de costas tropicales y subtropicales",
+      "curiosities": [
+        "Sus raíces aéreas filtran hasta el 90% de la sal del agua marina",
+        "Las semillas germinan mientras aún están en el árbol (viviparidad)",
+        "Actúa como guardería natural para más de 200 especies de peces"
+      ],
+      "description": "El mangle rojo es la especie más común de manglar, caracterizada por sus distintivas raíces aéreas (prop roots) que permiten la oxigenación en suelos anaeróbicos y proporcionan hábitat para numerosas especies marinas."
+    },
+    "infoNote": "Modelo 3D optimizado para web con animaciones de viento y fauna. Interactúa con los puntos de información."
+  },
+  {
+    "id": "exhibit-6",
+    "roomId": "mangrove-forest",
+    "title": "Raíces del Manglar",
+    "type": "cutaway-view",
+    "description": "Vista de corte que muestra el complejo sistema de raíces bajo el agua.",
+    "imageUrl": "/assets/images/mangrove-roots-cutaway.jpg",
+    "layers": ["surface", "underwater", "soil"],
+    "infoNote": "Las raíces del manglar filtran la sal del agua marina, funcionando como desalinizadores naturales."
+  },
+  {
+    "id": "exhibit-7",
+    "roomId": "threats-room",
+    "title": "Visualización de Contaminación",
+    "type": "comparison-slider",
+    "description": "Desliza para comparar un ecosistema acuático saludable vs. contaminado.",
+    "beforeImage": "/assets/images/clean-water.jpg",
+    "afterImage": "/assets/images/polluted-water.jpg",
+    "mangaCharacter": {
+      "name": "Guardian-sama",
+      "dialogue": "Esta transformación puede ocurrir en solo años... pero podemos revertirla.",
+      "emotion": "serious"
+    }
+  },
+  {
+    "id": "exhibit-8",
+    "roomId": "threats-room",
+    "title": "Gráfica de Impacto Humano",
+    "type": "data-visualization",
+    "description": "Visualización interactiva del impacto humano en ecosistemas acuáticos.",
+    "dataType": "timeline",
+    "dataUrl": "/api/data/human-impact",
+    "chartType": "animated-timeline",
+    "infoNote": "Los datos son claros. Aún estamos a tiempo de cambiar el futuro con acciones concretas."
+  },
+  {
+    "id": "exhibit-9",
+    "roomId": "threats-room",
+    "title": "Acciones de Conservación",
+    "type": "interactive-quiz",
+    "description": "Juego interactivo donde tomas decisiones para salvar ecosistemas acuáticos.",
+    "quizUrl": "/games/conservation-challenge",
+    "difficulty": "medium",
+    "infoNote": "Demuestra lo que has aprendido. Cada decisión que tomamos cuenta para la conservación."
+  }
+]

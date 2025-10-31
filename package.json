@@ -1,0 +1,25 @@
+{
+  "name": "water-museum-root",
+  "version": "1.0.0",
+  "description": "Museo Virtual del Agua - Proyecto completo",
+  "scripts": {
+    "install:all": "npm run install:backend && npm run install:frontend",
+    "install:backend": "cd backend && npm install",
+    "install:frontend": "cd frontend && npm install",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "start:backend": "cd backend && npm start",
+    "build:frontend": "cd frontend && npm run build",
+    "preview:frontend": "cd frontend && npm run preview"
+  },
+  "keywords": [
+    "museo",
+    "agua",
+    "vue",
+    "express",
+    "educación",
+    "manga"
+  ],
+  "author": "",
+  "license": "MIT"
+}

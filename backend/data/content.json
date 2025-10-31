@@ -1,0 +1,100 @@
+[
+  {
+    "id": "water-1",
+    "roomId": "water-origin",
+    "type": "text",
+    "title": "El Ciclo del Agua",
+    "content": "El agua es el único compuesto que existe naturalmente en los tres estados de la materia en la Tierra. Este ciclo infinito de evaporación, condensación y precipitación ha sido fundamental para el desarrollo de la vida.",
+    "facts": [
+      "El 71% de la superficie terrestre está cubierta de agua",
+      "Solo el 2.5% del agua en la Tierra es dulce",
+      "El agua en tu cuerpo es más antigua que el Sol"
+    ],
+    "mangaPanel": {
+      "style": "informative",
+      "bubblePosition": "top-right"
+    }
+  },
+  {
+    "id": "axolotl-1",
+    "roomId": "axolotl-room",
+    "type": "text",
+    "title": "El Ajolote: Un Tesoro Mexicano",
+    "content": "El axolotl (Ambystoma mexicanum) es un anfibio endémico de los canales de Xochimilco. Su nombre proviene del náhuatl 'axolotl' que significa 'monstruo acuático'.",
+    "facts": [
+      "Puede regenerar extremidades, cola, médula espinal e incluso partes del cerebro",
+      "Permanece en estado larvario toda su vida (neotenia)",
+      "Está críticamente en peligro de extinción",
+      "Es considerado símbolo de la identidad mexicana"
+    ],
+    "mangaPanel": {
+      "style": "cute",
+      "bubblePosition": "bottom-left"
+    }
+  },
+  {
+    "id": "mangrove-1",
+    "roomId": "mangrove-forest",
+    "type": "text",
+    "title": "Ecosistema Manglar",
+    "content": "Los manglares son bosques costeros que crecen en zonas donde el agua dulce se mezcla con el agua salada. Son uno de los ecosistemas más productivos del planeta.",
+    "facts": [
+      "Protegen las costas de huracanes y tsunamis",
+      "Almacenan hasta 4 veces más carbono que los bosques terrestres",
+      "Son hogar de más de 1,500 especies de plantas y animales",
+      "México tiene más de 775,000 hectáreas de manglares"
+    ],
+    "mangaPanel": {
+      "style": "adventurous",
+      "bubblePosition": "center"
+    }
+  },
+  {
+    "id": "threats-1",
+    "roomId": "threats-room",
+    "type": "text",
+    "title": "Principales Amenazas",
+    "content": "Nuestros ecosistemas acuáticos enfrentan múltiples desafíos que requieren nuestra atención urgente.",
+    "threats": [
+      {
+        "name": "Contaminación",
+        "description": "Desechos plásticos, químicos y aguas residuales dañan la vida acuática",
+        "severity": "critical"
+      },
+      {
+        "name": "Cambio Climático",
+        "description": "Aumento de temperatura, acidificación de océanos y eventos extremos",
+        "severity": "critical"
+      },
+      {
+        "name": "Sobreexplotación",
+        "description": "Pesca excesiva y extracción insostenible de recursos",
+        "severity": "high"
+      },
+      {
+        "name": "Destrucción de Hábitat",
+        "description": "Urbanización y deforestación de zonas costeras",
+        "severity": "high"
+      }
+    ],
+    "mangaPanel": {
+      "style": "serious",
+      "bubblePosition": "top-center"
+    }
+  },
+  {
+    "id": "threats-2",
+    "roomId": "threats-room",
+    "type": "action",
+    "title": "¿Qué Puedes Hacer?",
+    "content": "Pequeñas acciones pueden tener un gran impacto en la conservación del agua.",
+    "actions": [
+      "Reduce el uso de plásticos de un solo uso",
+      "Ahorra agua en casa: cierra la llave mientras te cepillas los dientes",
+      "Participa en limpiezas de ríos y playas",
+      "Apoya organizaciones de conservación",
+      "Educa a otros sobre la importancia del agua"
+    ],
+    "callToAction": "¡Conviértete en un guardián del agua!"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "axolotl-room",
+    "name": "Reino de los Axolotes",
+    "title": "🦎 Los Guardianes Acuáticos de México",
+    "description": "Descubre el fascinante mundo de los axolotes, anfibios endémicos de Xochimilco que pueden regenerar partes de su cuerpo.",
+    "theme": "wildlife",
+    "color": "#E91E63",
+    "icon": "🦎",
+    "order": 1,
+    "mangaStyle": {
+      "background": "url('/assets/backgrounds/axolotl-lake.jpg')",
+      "characterPose": "excited",
+      "effects": ["bubbles", "underwater-light"]
+    },
+    "subtitle": "Maestros de la regeneración"
+  },
+  {
+    "id": "mangrove-forest",
+    "name": "Bosques de Manglar",
+    "title": "🌴 Guardianes de las Costas",
+    "description": "Los manglares son ecosistemas únicos donde el agua dulce se encuentra con el mar, hogar de miles de especies.",
+    "theme": "ecosystem",
+    "color": "#4CAF50",
+    "icon": "🌴",
+    "order": 2,
+    "mangaStyle": {
+      "background": "url('/assets/backgrounds/mangrove-forest.jpg')",
+      "characterPose": "exploring",
+      "effects": ["leaves-falling", "mist"]
+    },
+    "subtitle": "Donde el agua dulce abraza al océano"
+  },
+  {
+    "id": "threats-room",
+    "name": "Amenazas y Desafíos",
+    "title": "⚠️ El Agua en Peligro",
+    "description": "Conoce las principales amenazas que enfrentan nuestros ecosistemas acuáticos y cómo podemos ayudar.",
+    "theme": "conservation",
+    "color": "#FF5722",
+    "icon": "⚠️",
+    "order": 3,
+    "mangaStyle": {
+      "background": "url('/assets/backgrounds/pollution-crisis.jpg')",
+      "characterPose": "determined",
+      "effects": ["dark-clouds", "lightning"]
+    },
+    "subtitle": "Juntos podemos hacer la diferencia"
+  }
+]
